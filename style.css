@@ -71,3 +71,14 @@ img {
 .clear {
   clear: both;
 }
+
+/* MEDIA QUERY */
+@media all and (max-width: 420px) {
+  .container {
+    max-width: 420px;
+    }
+
+  .row {
+    width: 100%;
+  }
+}
