@@ -73,6 +73,8 @@ img {
 }
 
 /* MEDIA QUERY */
+
+/* Breakpoint 420px */
 @media all and (max-width: 420px) {
   .container {
     max-width: 420px;
@@ -81,4 +83,46 @@ img {
   .row {
     width: 100%;
   }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    float: none;
+  }
+
+  #lezioni img[src*="maps"] {
+    width: 40%;
+    height: auto;
+  }
+
+  #lezioni img[src*="screen"] {
+    width: 50%;
+    height: auto;
+    margin-top: 10%;
+  }
+
+  #steps img {
+    width: 30%;
+    height: auto;
+    margin-top: 10%;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 10%;
+  }
+
+  #why img {
+    width: 20%;
+    height: auto;
+  }
+}
+
+/* Breakpoint ????px */
+@media all and (max-width: ???px) {
+
 }
